@@ -1,0 +1,219 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+.header
+{    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    position: fixed;   /* Cố định với thanh cuộn */
+   
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+a:hover
+{
+    transform: scale(1.1);
+
+}
+.main
+{
+    display:  flex;
+    padding: 35px 0px 0px 160px;
+    margin: 0px 20px 0px 20px;;
+}
+.menu
+{ 
+    margin-top: 20px;
+    margin-right: 10px;
+    display : none;
+    position: absolute;
+    background-color: rgb(226, 198, 198);
+    color:white;
+}
+.menu .menu-item
+{
+   color: white;
+   border: 6px;
+   width: 170px;
+   text-align: center;
+   padding-top: 5px;
+
+}
+.menu .menu-item :hover
+{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.1s all ease;
+}
+.list:hover .menu
+{
+    display: block;
+    border-radius: 5px;
+    background-color: rgb(226, 198, 198);
+    color: white;
+    opacity: .4px;
+    /* transform: scale(.85); */
+}
+.menu:hover
+{
+    background-color: black;
+}
+.icon1
+{
+    height: 30px
+}
+input
+{
+    color: black;
+    height: 40px; 
+    width: 300px;
+    padding-left: 18px;
+    padding-right: 25px;
+    background: transparent;
+    border-radius: 12px;
+    border: 2px solid gainsboro;
+    outline: none;
+    pointer-events: all;
+}
+.icon
+{
+       display: flex;
+       margin: 30px 0px 0px 70px;
+       padding-left:  10px;
+}
+.icon2
+{
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.icon3
+{
+    height: 19px;
+    position: absolute;
+    padding-left: 275px;
+    margin-top: 9px;
+}
+.timkiem
+{
+    position: relative;
+    display: flex;
+}
+.banner
+{
+    background-image: url('nen.webp');
+    height: 700px;
+}
+.content
+{
+    height: 2000px;
+    background-color: white;
+}
+.tieude
+{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 35px;
+}
+.sanpham
+{
+   display: flex;
+   justify-content: center;
+}
+.sp
+{   
+    cursor: pointer;
+    pointer-events: all;
+    width: 300px;
+    background-color: white;
+    height: 350px;
+    margin: 20px 10px 20px 10px ;
+    border: 5px 
+}
+.sp:hover
+{
+    transform: scale(1.1 );
+}
+.img1{
+    height: 300px;
+     width: 280px;
+     border-radius: 5px;
+}
+.imgsp
+{
+  margin-left: 10px;
+}
+span
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    transition: 0.35s;
+    cursor: pointer;
+}
+.namesp
+{
+    margin-top: 5px;
+    text-align: center;
+}
+.price
+{
+    text-align: center;
+}
+.tranper
+{
+    background-color: white;
+    height: 100px;
+}
+.tranper
+{
+   padding-left: 75%;
+   padding-top: 30px;
+}
+button
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+button:hover
+{
+    transform:scale(1.1);
+    color: white;
+    background-color: black;
+}
+.lienhe
+{
+    height: 80px;
+    background-color: wheat;
+    margin-top: 20px;
+}
+.end
+{
+    background-color: whitesmoke;
+    height: 500px;
+}
+
+
+
+
+
+
