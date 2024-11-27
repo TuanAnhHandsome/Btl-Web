@@ -1,0 +1,247 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: whitesmoke;
+}
+.header>a> img {
+  width: 10 0%;
+  height: 80px;
+  padding: 20px 10px 10px 20px;
+}
+.header-right {
+  width: 25%;
+  height: 100px;
+  /* background-color: green; */
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.lien-ket {
+  margin-left: 20px;
+  display: flex;
+  width: 55%;
+  /* background-color: red; */
+}
+.lien-ket > ul {
+  /* chỉ ul trực tiếp */
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+.header .lien-ket ul li,
+a {
+  color: black;
+  font-size: 18px;
+  position: relative;
+}
+/*-------------menu-------*/
+.uudai-menu {
+  position: absolute;
+  background-color: rgb(59, 59, 59);
+  width: 250px;
+  height: auto;
+  left: 0;
+  top: 100%;
+  padding: 15px;
+  display: none;
+}
+
+.uudai-menu ul {
+  display: flex;
+  flex-direction: column;
+}
+.uudai-menu li a {
+  color: white;
+  text-align: left;
+}
+
+.uudai-menu li a:hover {
+  background-color: black;
+}
+.lien-ket > ul > li:hover .uudai-menu {
+  display: block;
+}
+/*----*/
+.shop-menu {
+  position: absolute;
+  background-color: rgb(59, 59, 59);
+
+  width: 250px;
+  height: auto;
+  left: 0;
+  top: 100%;
+  padding: 15px;
+  display: none;
+}
+.lien-ket > ul > li:hover .shop-menu {
+  display: block;
+}
+.shop-menu li a {
+  color: white;
+  margin-bottom: 5px;
+}
+.shop-menu li a:hover {
+  background-color: black;
+}
+/*-----dz-menu------*/
+.dz-menu {
+  position: absolute;
+  background-color: rgb(59, 59, 59);
+  width: 250px;
+  height: auto;
+  left: 0;
+  top: 100%;
+  padding: 15px;
+  display: none;
+}
+.lien-ket > ul > li:hover .dz-menu {
+  display: block;
+}
+.dz-menu li a {
+  color: white;
+}
+.dz-menu li a:hover {
+  background-color: black;
+}
+/*----------COLLAB-MENU-----*/
+.collab-menu {
+  position: absolute;
+  background-color: rgb(59, 59, 59);
+  width: 250px;
+  height: auto;
+  left: 0;
+  top: 100%;
+  padding: 15px;
+  display: none;
+}
+.lien-ket > ul > li:hover .collab-menu {
+  display: block;
+}
+.collab-menu li a {
+  color: white;
+}
+.collab-menu li a:hover {
+  background-color: black;
+}
+/*----contact-----*/
+.header .lien-ket ul li:nth-child(5):hover {
+  text-decoration: underline;
+  /* background-color: red; */
+}
+.about-us:hover {
+  text-decoration: underline;
+}
+
+/*-----header-right---*/
+.header-right ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  font-size: 20px;
+  align-items: center;
+  padding: 30px;
+}
+.header-right ul li:nth-child(1){
+    
+    position: relative;
+}
+.header-right ul li:nth-child(1) input {
+  height: 45px;
+  border-radius: 10px;
+  width: 170px;
+  border: none;
+  cursor: text;
+  color: rgb(43, 42, 42);
+}.header-right ul li:nth-child(1) i{
+    position: absolute;
+    font-size: 20px;
+    right:  0px;  
+    top: 50%;     
+    transform: translateY(-50%);  
+}
+.signin {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  /* background-color:rgb(195, 202, 183); */
+  /* margin-top: 500px; */
+  /* min-height: 100vh; */
+  justify-content: center;
+  align-items: center;
+}
+/* #form-login{
+     max-width: 400px; 
+} */
+
+#form-login h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(54, 49, 49);
+}
+.dangnhap {
+  display: flex;
+  margin-bottom: 15px;
+}
+.dangnhap ::placeholder {
+  color: gray;
+}
+.dangnhap i {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  /* margin-left: 10px; */
+}
+.dangnhap input {
+  display: flex;
+  /* position: relative; */
+  /* padding-right: 10px; */
+  padding-left: 40px;
+}
+.required {
+  position: absolute;
+  color: red;
+  margin-left: 480px;
+  margin-top: 10px;
+}
+.form-input {
+  width: 500px;
+  height: 40px;
+  border: 1px solid gainsboro;
+  outline: 0; /* Khi click vào thì k hiện viền */
+}
+.form-submit {
+  background-color: white;
+  width: 500px;
+  height: 40px;
+  color: gray;
+}
+.form-submit:hover {
+  background-color: black;
+  color: white;
+}
+.Forgot-pass{
+  margin-top: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+.Forgot-pass a{color: rgb(52, 44, 44);
+  font-size: 15px;
+  font-family: inherit;
+}
+.register{
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+}

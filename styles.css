@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Kiểu cho thanh tác vụ */
+  .navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Kiểu cho logo */
+  .navbar .logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Kiểu cho các liên kết trong menu */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+    position: relative; /* Để quản lý vị trí của submenu */
+  }
+  
+  /* Kiểu cho liên kết */
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hiệu ứng hover cho liên kết */
+  .nav-links a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  /* Kiểu cho menu con (submenu) */
+  .submenu {
+    list-style-type: none;
+    position: absolute;
+    top: 100%; /* Đặt submenu ngay dưới item menu */
+    left: 0;
+    background-color: #333;
+    display: none; /* Ẩn menu con mặc định */
+    padding: 10px 0;
+    min-width: 150px; /* Đặt chiều rộng của submenu */
+    z-index: 1000; /* Đảm bảo submenu nằm trên các phần tử khác */
+  }
+  
+  .submenu li {
+    padding: 8px 20px;
+  }
