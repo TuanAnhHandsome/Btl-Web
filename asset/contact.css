@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+/* tạo 1 div ảo ddeer đẩy header */
+.top__container {
+  width: 100%;
+  height: 100px;
+}
+/* nội dung chính css */
+.center__container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.main-content-contact {
+  width: auto;
+  height: auto;
+  margin:0 160px 50px 200px;
+  display: flex;
+}
+
+.fa-folder {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.left__box {
+  flex: 7;
+  margin-right: 20px;
+}
+
+.store-container {
+  width: 80%;
+  margin-left: 90px;
+}
+
+.store-container header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.store-container header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.store-container header h1:hover{
+  color: #000;
+}
+
+.fa-star {
+  color: #666;
+}
+
+.store-container header p {
+  font-size: 0.6rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 35px;
+  color: #171616;
+}
+
+.store-info h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #323030;
+}
+
+.store-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.store-info ul li {
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.store-info {
+  margin-bottom: 20px;
+}
+/* footer trong  store container */
+footer {
+  text-align: center;
+}
+
+footer span {
+  font-size: 0.9rem;
+  color: #323030;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #323030;
+}
+/* footer của phần center container */
+
+
+.footer__container p {
+  font-size: 0.7rem;
+  margin-top: 40px;
+  color: #6f6e6e;
+}
+
+.footer__container-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.footer__container-icon1-link {
+  margin-left: 10px;
+  padding: 5px 8px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  background-color: #beb9b9;
+}
+
+.footer__container-icon2-link {
+  border: 1px solid transparent;
+  margin-left: 10px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  padding: 5px;
+  background-color: #beb9b9;
+}
+
+.footer__end-line {
+  border-top: 0.9px solid #c5bfbf;
+}
+/* phần BÀi viết liên quan */
+
+.container__link-content-item {
+  display: flex;
+  width: 65%;
+  
+}
+
+.link-content-item-chil {
+  margin: 0 10px;
+}
+
+.link-content-item-chil-img:hover {
+  transform: scale(1.05); /* Phóng to 10% khi di chuột vào */
+  transform-origin: center; /* Zoom vào trung tâm */
+  transition: transform 0.3s ease; /* Hiệu ứng chuyển động mượt mà */
+}
+
+.link-content-item-chil-img {
+  width: 200px;
+  height: auto;
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+}
+
+.link-content-item-chil p {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  cursor: default;
+  width: 250px;
+  height: auto;
+}
+/*  cục bên phải */
+.search-block {
+  flex: 2;
+}
+
+.search-block h1 {
+  margin: 50px 0 20px 0;
+  padding-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+  border-bottom: 1px solid #c6c3c3;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: text;
+}
+
+.search-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-box-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #c6c3c3;
+  padding: 7px 10px;
+  margin-bottom: 30px;
+}
+
+.search-box-item input {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.search-results {
+  border-top: 1px solid #c6c3c3;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.search-results li {
+  font-size: 0.8rem;
+  margin: 10px 0;
+  color: #555;
+  font-weight: 400;
+}
+
+.search-results li:hover {
+  color: #333;
+}
