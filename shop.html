@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/asset/main.css" />
+    <link rel="stylesheet" href="/asset/shop.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Main</title>
+    <title>Shop</title>
   </head>
   <body>
     <div class="header">
-      <a href="/main.html"><img src="/image/logo2.2.png" alt="" width="100px" /></a>
+      <a href=""><img src="/image/logo2.2.png" alt="" width="100px" /></a>
       <div class="lien-ket">
         <ul>
           <li>
@@ -24,7 +25,7 @@
             </div>
           </li>
           <li>
-            <a href="/shop.html">SHOP</a>
+            <a href="">SHOP</a>
             <div class="shop-menu">
               <ul>
                 <li><a href="#">TOPS</a></li>
@@ -100,7 +101,73 @@
     </div>
     <!-- Mục sản phẩm -->
     <div class="main-content">
-      <div class="tieude"> Tất Cả Sản Phẩm</div>
+      <div class="tieude"> 
+        <div class="title__list-right">
+          <div class="title__list-right-prices">
+            <p class="title__list-right-text">Lọc giá</p>
+            <i class="title__list-right-icon fa-solid fa-angle-down"></i>
+            <div class="title__list-right-prices-list">
+              <ul class="title__list-right-prices-list-item">
+                <li><input type="checkbox" class="item"><label for="item">Giá dưới 100.000đ</label></li>
+                <li><input type="checkbox" class="item"><label for="item">100.000đ - 200.000đ</label></li>
+                <li><input type="checkbox" class="item"><label for="item">200.000đ - 300.000đ</label></li>
+                <li><input type="checkbox" class="item"><label for="item">300.000đ - 500.000đ</label></li>
+                <li><input type="checkbox" class="item"><label for="item">Giá trên 500.000đ</label></li>
+              </ul>
+            </div>
+          </div>
+          <div class="title__list-right-classify">
+            <p class="title__list-right-text">Loại</p>
+            <i class="title__list-right-icon fa-solid fa-angle-down"></i>
+            <div class="title__list-right-classify-list">
+              <ul class="title__list-right-classify-list-item">
+                <li><input type="checkbox" class="item1"><label for="item1">ACCESSORIES</label></li>
+                <li><input type="checkbox" class="item1"><label for="item1">BACKPACKS</label></li>
+                <li><input type="checkbox" class="item1"><label for="item1">CAPS</label></li>
+                <li><input type="checkbox" class="item1"><label for="item1">CADIGAN</label></li>
+                <li><input type="checkbox" class="item1"><label for="item1">HODIES</label></li>
+                <li><input type="checkbox" class="item1"><label for="item1">JEANS</label></li>
+                <li><input type="checkbox" class="item1"><label for="item1">JACKETS</label></li>
+              </ul>
+            </div>
+          </div>
+          <div class="title__list-right-size">
+            <p class="title__list-right-text">Kích thước</p>
+            <i class="title__list-right-icon fa-solid fa-angle-down"></i>
+            <div class="title__list-right-size-list">
+              <ul class="title__list-right-size-list-item">
+                <li><input type="checkbox" class="item3"><label for="item3">Size S</label></li>
+                <li><input type="checkbox" class="item3"><label for="item3">Size M</label></li>
+                <li><input type="checkbox" class="item3"><label for="item3">Size L</label></li>
+                <li><input type="checkbox" class="item3"><label for="item3">Size XL</label></li>
+              </ul>
+            </div>
+          </div>
+          <div class="title__list-right-color">
+            <p class="title__list-right-text">Màu sắc</p>
+            <i class="title__list-right-icon fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+        <div class="title__list-left-order">
+          <div class="title__list-left">Thứ tự</div>
+          <i class="title__list-right-icon fa-solid fa-angle-down"></i>
+          <div class="title__list-left-order-list">
+            <ul>
+              <li><a href="" class="title__list-left-order-list-item">Mới nhất</a>
+              </li>
+              <li>
+                <a href="" class="title__list-left-order-list-item">Giá tăng dần</a>
+              </li>
+              <li>
+                <a href="" class="title__list-left-order-list-item">Giá giảm dần</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+     </div>
+      <div class="tieude__line"></div>
+
+      </div>
         <div class="sanpham">
           <a href="/sanpham.html">
            <div class="sp">
